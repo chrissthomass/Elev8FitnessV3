@@ -44,7 +44,7 @@ img {
 .hero-bg-image {
   position: absolute;
   inset: 0;
-   background-image:url("/7C10921B-7A76-4F6E-BE45-C5298805CC97.jpeg");
+   background-image:url("7C10921B-7A76-4F6E-BE45-C5298805CC97.jpeg");
   background-size: cover;
   background-position: center;
   filter: brightness(0.4);
