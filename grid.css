@@ -26,60 +26,9 @@ img {
 
 
 
-/*NAVBAR*/
 
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    padding: 0px 40px;
-    align-items: center;
-    background-color: #111;
-    position: sticky;
-    top:0;
-    z-index: 100;
-}
 
-.logo{
-    height:100px;
-    width:100px;
-    font-size: 1.8rem;
-    font-weight: 700;
 
-}
-
-.logo span{
-    color:#e62340
-}
-
-.nav-links{
-    list-style: none;
-    display:flex;
-    gap:25px;
-}
-
-.nav-links a{
-    color:white;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.nav-links a:hover{
-    color: #e62340;
-}
-
-@media(max-width:768px){
-    .nav-links a{
-        font-size: 0.5rem;
-    }
-
-    .nav-links{
-        gap:5px;
-    }
-
-    .logo{
-        font-size: 1.2rem;
-    }
-}
 
 .hero {
   position: relative;
