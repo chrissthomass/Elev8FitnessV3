@@ -1,130 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <title>Elev8 Fitness</title>
-    <link rel = "stylesheet" href = "grid.css">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel = "stylesheet">
-    <script src = "https://kit.fontawesome.com/a2d9d6c4f2.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Elev8 Fitness | Personal Training & Coaching</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a2d9d6c4f2.js" crossorigin="anonymous"></script>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="grid.css">
+
+</head>
 <body>
 
-<!--NAVBAR-->
-<nav class="navbar fixed-top bg-dark border-bottom border-body" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-      </div>
+<!-- =======================================================
+     NAVBAR
+======================================================= -->
+<nav class="navbar fixed-top navbar-dark bg-dark border-bottom border-body">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Elev8 Fitness</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link" href="#benefits">Programs</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
 
-    <!--HERO SECTION-->
-<section class="hero">
-  <div class="hero-bg-image"></div>
-  <div class="hero-diagonal"></div>
-  
-  <div class="hero-content">
-    <h1 class="hero-title"><span id="typing"></span></h1>
-    <p class="hero-subtitle">
-      Custom training, nutrition coaching & real lifestyle transformation.
-    </p>
-    <button class="cta-btn large">Start Training</button>
-  </div>
-</section>
+<!-- =======================================================
+     HERO SECTION
+======================================================= -->
+<section class="hero" id="home">
+    <div class="hero-bg-image"></div>
+    <div class="hero-diagonal"></div>
 
-    <!--BENEFITS SECTION-->
-<section class = "benefits">
-     <div class = "card">
-        <i class = "fas fa-dumbbell icon"></i>
-        <h3>Strength Training</h3>
-         <p>Build lean muscle and and boost performance with custom routines.</p>
-         <button class = "cta-btn">Find out more</button>
-     </div>
-     <div class = "card">
-         <i class = "fas fa-heartbeat icon"></i>
-         <h3>Weight Loss</h3>
-         <p>Burn fat effectively with tailored cardio and nutrition plans.</p>
-         <button class = "cta-btn">Find out more</button>
+    <div class="hero-content">
+        <h1 class="hero-title"><span id="typing"></span></h1>
+
+        <p class="hero-subtitle">
+            Custom training, nutrition coaching & real lifestyle transformation.
+        </p>
+
+        <button class="cta-btn large">Start Training</button>
     </div>
-    <div class = "card">
-         <i class = "fas fa-apple-alt icon"></i>
-        <h3>Nutrition Coaching</h3>
-        <p>Personalised meal plans to support your fitness plans</p>
-         <button class = "cta-btn">Find out more</button>
-     </div>
 </section>
 
-<!--ABOUT ME-->
-<section class="about-me">
+<!-- =======================================================
+     BENEFITS SECTION
+======================================================= -->
+<section class="benefits" id="benefits">
+    <div class="card">
+        <i class="fas fa-dumbbell icon"></i>
+        <h3>Strength Training</h3>
+        <p>Build lean muscle and boost performance with custom routines.</p>
+        <button class="cta-btn">Find out more</button>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-heartbeat icon"></i>
+        <h3>Weight Loss</h3>
+        <p>Burn fat effectively with tailored cardio and nutrition plans.</p>
+        <button class="cta-btn">Find out more</button>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-apple-alt icon"></i>
+        <h3>Nutrition Coaching</h3>
+        <p>Personalised meal plans to support your fitness goals.</p>
+        <button class="cta-btn">Find out more</button>
+    </div>
+</section>
+
+<!-- =======================================================
+     ABOUT ME
+======================================================= -->
+<section class="about-me" id="about">
     <div class="about-header">
         <h1>About Me</h1>
     </div>
 
     <div class="selfie">
-        <img src="IMG_1408.jpg" alt="James Thomas">
+        <img src="IMG_1408.jpg" alt="James Thomas - Personal Trainer">
     </div>
 
     <div class="about-text">
         <h2>James Thomas</h2>
         <p>
-            Dedicated personal trainer focused on transforming both body and mindset. 
-            I create personalised training programs designed to build strength, improve performance, 
-            and push you toward your best self.
+            Dedicated personal trainer focused on transforming both body and mindset.
+            I create personalised training programs designed to build strength,
+            improve performance, and help you become the best version of yourself.
         </p>
     </div>
 </section>
 
-<!--TESTIMONIALS SECTION-->
+<!-- =======================================================
+     TESTIMONIALS
+======================================================= -->
 <section class="testimonials">
     <h2 class="section-title">What Clients Say</h2>
 
     <div class="testimonial-grid">
 
         <div class="testimonial-card">
-            <img src="client1.jpg" class="client-photo" alt="Client 1">
+            <img src="client1.jpg" class="client-photo" alt="Client Sarah Williams">
             <h3>Sarah Williams</h3>
             <div class="stars">★★★★★</div>
-            <p>"James completely changed my confidence. His training programs are challenging but fun, and the results are unbelievable!"</p>
+            <p>"James completely changed my confidence. The results are unbelievable!"</p>
         </div>
 
         <div class="testimonial-card">
-            <img src="client2.jpg" class="client-photo" alt="Client 2">
+            <img src="client2.jpg" class="client-photo" alt="Client Mark Davies">
             <h3>Mark Davies</h3>
             <div class="stars">★★★★★</div>
-            <p>"Best PT I’ve ever worked with. The nutrition coaching alone helped me drop over 10kg while gaining strength!"</p>
+            <p>"The nutrition coaching helped me drop over 10kg while gaining strength!"</p>
         </div>
 
         <div class="testimonial-card">
-            <img src="client3.jpg" class="client-photo" alt="Client 3">
+            <img src="client3.jpg" class="client-photo" alt="Client Emily Johnson">
             <h3>Emily Johnson</h3>
             <div class="stars">★★★★★</div>
-            <p>"Highly recommend. I feel stronger, healthier, and more motivated than ever. James knows exactly how to push you safely."</p>
+            <p>"I feel stronger, healthier, and more motivated than ever."</p>
         </div>
 
     </div>
 </section>
-<!--FORM-->
+
+<!-- =======================================================
+     CONTACT FORM
+======================================================= -->
 <section class="contact-section" id="contact">
     <h2 class="section-title">Get In Touch</h2>
 
     <div class="contact-grid">
 
-        <!-- LEFT: FORM -->
+        <!-- FORM -->
         <form class="contact-form" id="contactForm">
             <div class="form-row">
                 <input type="text" id="firstName" placeholder="First Name" required>
@@ -138,7 +165,7 @@
             <button class="cta-btn form-btn" type="submit">Send Message</button>
         </form>
 
-        <!-- RIGHT: SOCIALS OR IMAGE -->
+        <!-- INFO BOX -->
         <div class="contact-info">
             <h3>Connect With Me</h3>
 
@@ -155,27 +182,27 @@
     </div>
 </section>
 
+<!-- =======================================================
+     FOOTER
+======================================================= -->
 <footer class="footer">
     <div class="footer-content">
 
-        <!-- COLUMN 1: LOGO + TAGLINE -->
         <div class="footer-col">
             <h2 class="footer-logo">Elev8 Fitness</h2>
             <p>Your journey to strength starts here.</p>
         </div>
 
-        <!-- COLUMN 2: QUICK LINKS -->
         <div class="footer-col">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#benefits">Programs</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
 
-        <!-- COLUMN 3: CONTACT INFO -->
         <div class="footer-col">
             <h3>Contact</h3>
             <p>Cardiff, UK</p>
@@ -196,19 +223,15 @@
     </div>
 </footer>
 
-
-
-  
+<!-- WHATSAPP FLOATING BUTTON -->
 <a href="https://wa.me/447792330521" class="whatsapp-btn" target="_blank">
-  <img src="whatsapp.png" class="wa-img">
+    <img src="whatsapp.png" class="wa-img" alt="WhatsApp">
 </a>
 
-
+<!-- JAVASCRIPT -->
 <script src="practice.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
-
 </html>
